@@ -1,0 +1,18 @@
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               jaxb:version="1.0">
+
+      <jaxb:bindings schemaLocation="common/UBL-ExtensionContentDataType-2.2.xsd"
+        node="/xs:schema">
+        <jaxb:schemaBindings>
+          <jaxb:package name="ecd"/>
+        </jaxb:schemaBindings>
+      </jaxb:bindings>
+
+      <jaxb:bindings schemaLocation="common/UBL-xmldsig-core-schema-2.2.xsd"
+        node="/xs:schema">
+        <jaxb:schemaBindings>
+          <jaxb:package name="xcs"/>
+        </jaxb:schemaBindings>
+      </jaxb:bindings>
+  </jaxb:bindings>

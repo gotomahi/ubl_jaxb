@@ -1,0 +1,110 @@
+<jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+               xmlns:xs="http://www.w3.org/2001/XMLSchema"
+               jaxb:version="1.0">
+
+  <jaxb:bindings schemaLocation="maindoc/UBL-CreditNote-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.creditnote"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="maindoc/UBL-Invoice-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.invoice"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/CCTS_CCT_SchemaModule-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.sm"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-CommonAggregateComponents-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.cac"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-CommonBasicComponents-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.cbc"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-CommonExtensionComponents-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.cec"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-CommonSignatureComponents-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.csc"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-QualifiedDataTypes-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.qdt"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-SignatureAggregateComponents-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.sac"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-SignatureBasicComponents-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.sbc"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-UnqualifiedDataTypes-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.udt"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-XAdES01903v132-201601-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.xa132"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-XAdES01903v141-201601-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.xa141"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-xmldsig1-schema-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.xs1"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+  <jaxb:bindings schemaLocation="common/UBL-xmldsig11-schema-2.2.xsd"
+    node="/xs:schema">
+    <jaxb:schemaBindings>
+      <jaxb:package name="ubl.xsd.generated.xs11"/>
+    </jaxb:schemaBindings>
+  </jaxb:bindings>
+
+</jaxb:bindings>
